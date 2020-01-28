@@ -1,0 +1,11 @@
+updates on integration:
+milestone before Feb 3:
+Integrate phone app and motors
+Use motors to perform simple routes
+Fix accelerameter and gps issues
+
+update ZhiMing Zhu:
+I ran the motor to run a full square,
+delay for 2000 at speed 150 makes a almost perfect 90 degree turn
+the run was successful
+will now run the motor with mapping algorithm and later run the motor with communication moduel

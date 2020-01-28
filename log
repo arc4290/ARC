@@ -11,3 +11,15 @@ the run was successful
 will now run the motor with mapping algorithm and later run the motor with communication moduel
 runMotor and Mapping is two of my completed subsystems
 a new file will be uploaded later when motor and mapping is integrated into each other
+
+
+milestones before Feb 15:
+Validate phone app with motors
+Validate motors performing simple routes
+Validate all sensors with gps
+Integrate sensors with motor function
+Integrate phone app with sensors for feedback
+Completely integrate mapping algorithm with motors
+Validate sensors with phone app
+Validate sensors with motors
+Validate mapping algorithm with motors

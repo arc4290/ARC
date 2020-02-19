@@ -18,6 +18,14 @@ Currently working and adressing the fusion of the MPU6050 Accel/Gyro and ADA746 
 MPU6050 proving to be very diffficult to integrate
 Might need to buy a new microcontroller as the Romeo BLE (ATMega328p) only has 32kb of program space
 
+Update Noah Jean (2/18):
+Controlling motor functions with app
+Data lose proticol validated
+Dimensions sent and parsed with app
+Text to speech for when inputs are sent for validation
+Error message for when dimensions exceed an area of 500 feet
+Need to start integrating with sensors
+
 
 
 milestones before Feb 15:

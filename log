@@ -1,8 +1,4 @@
 updates on integration:
-milestone before Feb 3:
-Integrate phone app and motors
-Use motors to perform simple routes
-Fix accelerameter and gps issues
 
 update ZhiMing Zhu:
 I ran the motor to run a full square,
@@ -27,14 +23,44 @@ Error message for when dimensions exceed an area of 500 feet
 Need to start integrating with sensors
 
 
+update ZhiMing Zhu:
+motor can run in chain of command, all the motor function has been tested and works individually.
+worked on getting GUI+bluetooth+motor to work, Noah only had trouble making something for user to input starting position.
+then moved on to get the accelerometer+motor work with two microcontroller.
+problems encountered when using only one microcontroller:
+we tried two scripts, the first script required time for calibration and was highly inconsistent
+the second script was stable, does not need calibration and is consistent with its result.
+both script does not work with motor and is highly inconsistent with motor.
+we suspect the problem was accelerometer getting disrupted from motor signals when its collecting data.
 
-milestones before Feb 15:
-Validate phone app with motors
-Validate motors performing simple routes
-Validate all sensors with gps
-Integrate sensors with motor function
-Integrate phone app with sensors for feedback
-Completely integrate mapping algorithm with motors
-Validate sensors with phone app
-Validate sensors with motors
-Validate mapping algorithm with motors
+our first attempt to solve this problem was to run accelerometer and motor each in different mcu
+so that the accelerometer signal does not get disrupted from the motor signal,
+another reason to get the mcu was because sensor script was using 60% of the total space and
+algorithm was using 30-40% so we're buying a second one with larger space before it run out.
+I and Jesse decided to go with second script since it's consistent.
+Testing result using second script: the motor was able to run by itselves with accelerometer,
+the mcu was able to use the accelerometer data to perform decision making(if cases using accelerometer data)
+but was still not able to perform decision making with motor function
+
+our second attempt to solve this problem was to sync the I2C connecting between the two microcontrollers
+and when motor mcu is not receiving data, we can do motor functions.
+by separating the send and receive of the data between the two boards and the motor function
+we were hoping that would solve our problem. But it was a failure.
+
+update after blitz ZhiMing Zhu:
+Noah was ready to integrate GUI+bluetooth+motor now, since I've already tested the motors combining
+algorithm, combining the communication module from Noah into my mapping algorithm should work
+we're now able take user input(length, width, and staring position), send that to the mcu through bluetooth
+the mcu will run the mapping algorithm and perform the motor function.
+
+things to validate and status:
+invalid user inputs(letters, special charaters, area out of range)
+connection lost
+data loss over in transmission
+check if data received is the correct user input
+correct motor function
+disconnecting while sending data
+turning off the motor while it's still in the process of executing
+multiple attempt of user inputs
+
+

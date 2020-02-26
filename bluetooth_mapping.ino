@@ -43,7 +43,7 @@ void loop() {
   }
   out2 = 0;
   
-if(product < 500){
+if(product <= 500){
   start = p;
   int mapp[l][w];
   

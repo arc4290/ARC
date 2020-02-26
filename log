@@ -20,8 +20,22 @@ Data lose proticol validated
 Dimensions sent and parsed with app
 Text to speech for when inputs are sent for validation
 Error message for when dimensions exceed an area of 500 feet
-Need to start integrating with sensors
+Integrate app with sensors
 
+Blitz update for Noah Jean:
+I was able to integrate the mapping and bluetooth communication arduino code, 
+so now the app can send dimensions and the arduino will now run the mapping proticol 
+using the dimensions that were sent. There was one issue however. We needed a proticol 
+to make sure that the user inputs from the phone app matches what was recieved from the 
+arduino. I was not able to create this proticol during my time as blitz. I will have to
+achieve this as soon as possible. 
+
+Update Noah Jean (2/25):
+I am now able to validate that the user inputs match was is received from the app. I was 
+sending back what was recieved from the arduino back to the phone and trying to compare 
+inside the app. The issue was that for some reason the phone was having an issue with data types.
+I was able to fix this by making everything the same data type. Now that this is working, the 
+mapping and phone app are successfully integrated. 
 
 update ZhiMing Zhu:
 motor can run in chain of command, all the motor function has been tested and works individually.
@@ -54,13 +68,19 @@ we're now able take user input(length, width, and staring position), send that t
 the mcu will run the mapping algorithm and perform the motor function.
 
 things to validate and status:
-invalid user inputs(letters, special charaters, area out of range)
+invalid user inputs(letters, special charaters, area out of range): Complete
 connection lost
-data loss over in transmission
-check if data received is the correct user input
+data loss over in transmission: Complete
+check if data received is the correct user input: Complete
 correct motor function
 disconnecting while sending data
 turning off the motor while it's still in the process of executing
 multiple attempt of user inputs
-
+Controlling motor functions with app: Complete
+Data lose proticol validated: Complete
+Dimensions sent and parsed with app: Complete
+Text to speech for when inputs are sent for validation: Complete
+Error message for when dimensions exceed an area of 500 feet: Complete
+Integrate app with sensors
+Integrate app with mapping: Complete
 

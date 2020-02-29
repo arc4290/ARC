@@ -68,19 +68,12 @@ we're now able take user input(length, width, and staring position), send that t
 the mcu will run the mapping algorithm and perform the motor function.
 
 things to validate and status:
-invalid user inputs(letters, special charaters, area out of range): Complete
+invalid user inputs(letters, special charaters, area out of range)
 connection lost
-data loss over in transmission: Complete
-check if data received is the correct user input: Complete
-correct motor function
+data loss over in transmission
+check if data received is the correct user input
 disconnecting while sending data
 turning off the motor while it's still in the process of executing
 multiple attempt of user inputs
-Controlling motor functions with app: Complete
-Data lose proticol validated: Complete
-Dimensions sent and parsed with app: Complete
-Text to speech for when inputs are sent for validation: Complete
-Error message for when dimensions exceed an area of 500 feet: Complete
-Integrate app with sensors
-Integrate app with mapping: Complete
+
 

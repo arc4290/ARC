@@ -75,5 +75,15 @@ check if data received is the correct user input
 disconnecting while sending data
 turning off the motor while it's still in the process of executing
 multiple attempt of user inputs
+stop function
+
+all the tests above has been done and passed
+
+update ZhiMing Zhu:
+the validation of phone app+bluetooth+mcu+motor has been done and complete,
+there may be a few things to add to the integrated system but what we have
+right now works and passed all test cases.
+moving forward will be integrating the sensors into the system and use the 
+sensor values to drive the motor, detect obstacles and avoid obstacles.
 
 

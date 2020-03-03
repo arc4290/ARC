@@ -1,0 +1,25 @@
+Here is instructions on how to use the phone app and the cultivator, please follow instructions below:
+1. Connect the bluetooth on the phone app to the cultivator
+2. Enter the dimention of the land you wish the cultivator to cultivate on the phone app
+3. Place the cultivator on one of the corner of the land facing inward
+4. Select the position where you placed the cultivator on the phone app
+5. When you press send, the data you've entered will be sent and the the cultivator will
+  cultivate the land of the dimention that you've entered.
+  
+Here are a few things you need to be aware when you use this cultivator:
+1. When you press stop button, everything will be stopped
+2. Do not get in front of the cultivator when it's trying to cultivate
+    the cultivator will treat you as obstacle and the land between you and
+    the cultivator will not be plotted
+3. Do not run the cultivator while it's raining or any other harsh weather, 
+    it does not have water proof feature
+4. In the case of it detects obstacle, the phone app will send warning signal you,
+    there is no action needed since the cultivator will avoid the obstacle
+    but the land between the obstacle and the cultivator at that position will not be cultivated
+    in this case you should do a width of a number and length of zero to cultivator the land after
+    the removal of the obstacle
+5. A message will be send to you via phone app when the cultivation is complete if the bluetooth is
+    still connected at the time, the cultivator will stop on itselves once the cultivation is done
+6. Remember to unplug the battery to the motor and turn the motor switch off when you are not using
+    since it will slowly drain the battery
+  

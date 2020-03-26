@@ -10,3 +10,4 @@ to create the basic foundation for future upscaled autonomous farming tools.
 Contained in this repository:
 log file with milestones and updates of the project
 arduino files of inidivisual subsystems and integraded codes
+user manuel stating the specification to run the ARC and the limitation of ARC

@@ -87,3 +87,13 @@ moving forward will be integrating the sensors into the system and use the
 sensor values to drive the motor, detect obstacles and avoid obstacles.
 
 
+update after spring break:
+we've got the gyroscope working with the algorithm, now testing with ultrasonic and accelerometer. 
+by the desinated date April 3rd, we plan to present our project with fully integrated and tested
+GUI+bluetooth+algorithm+motor+sensor system that can perform from taking user input and running an entire 
+route and detect+avoid any obstacle ahead of the rover. 
+few things will be missing from original goal of the project due to the COVID-19 situation:
+cultivator and actuator will not be installed onto the rover since it's in the lab, taking it out will take time
+we probably wont have time to test it.
+battery test cannot be done as it needs the equipment from the lab.
+

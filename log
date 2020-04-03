@@ -87,7 +87,7 @@ moving forward will be integrating the sensors into the system and use the
 sensor values to drive the motor, detect obstacles and avoid obstacles.
 
 
-update after spring break:
+update after spring break, ZhiMing Zhu:
 we've got the gyroscope working with the algorithm, now testing with ultrasonic and accelerometer. 
 by the desinated date April 3rd, we plan to present our project with fully integrated and tested
 GUI+bluetooth+algorithm+motor+sensor system that can perform from taking user input and running an entire 
@@ -97,3 +97,11 @@ cultivator and actuator will not be installed onto the rover since it's in the l
 we probably wont have time to test it.
 battery test cannot be done as it needs the equipment from the lab.
 
+final update ZhiMing Zhu:
+the battery died while we're still working on the integration of sensors and the motor,
+we've asked Andrew if we could check out a charger, unfortunately because of COVID-19,
+we could not and the project is on unpause after.
+when the battery died, the sensor is only partly integrated with the motor,
+we've tested ultrasonic and gyroscope and they've proven to be work, 
+although we only have video of gyroscope and the motors, more videos were planned to be filmed to prove our progress,
+unfortunately they could not be done either because battery died.

@@ -67,6 +67,12 @@ algorithm, combining the communication module from Noah into my mapping algorith
 we're now able take user input(length, width, and staring position), send that to the mcu through bluetooth
 the mcu will run the mapping algorithm and perform the motor function.
 
+update after blitz Jesse Gomez:
+We decided to move everything back to one board the arduino mega as it had 
+more hardware serial ports and over 4 times the memory space. The issues we ran
+into earlier with data corruption between the Accelerometer and motors were solved by 
+this. 
+
 things to validate and status:
 invalid user inputs(letters, special charaters, area out of range)
 connection lost
